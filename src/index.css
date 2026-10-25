@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #faf8f3;
+    color: #1c261e;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  h1, h2, h3, .font-editorial {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom premium styling */
+.grain-bg {
+  background-color: #faf8f3;
+  background-image: radial-gradient(#d3c2a3 0.75px, transparent 0.75px), radial-gradient(#d3c2a3 0.75px, #faf8f3 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+.gold-glow {
+  box-shadow: 0 10px 30px -10px rgba(217, 155, 38, 0.35);
+}
+
+.forest-glow {
+  box-shadow: 0 10px 30px -10px rgba(20, 61, 43, 0.25);
+}
